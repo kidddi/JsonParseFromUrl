@@ -18,15 +18,15 @@ public class TestJson {
         Data data = parserJsonParserFromUrl.getData("https://jsonplaceholder.typicode.com/posts/1");
 
         System.out.println("result: \n" + data);
-        System.out.println("*****************************");
-        String s = data.toString();
-        String[] s1 = s.split(",");
-        List<String> s2 = new ArrayList<String>();
-        for (String a : s1){
-            String b = a + "\n";
-            s2.add(b);
-        }
-        System.out.println(s2);
+//        System.out.println("*****************************");
+//        String s = data.toString();
+//        String[] s1 = s.split(",");
+//        List<String> s2 = new ArrayList<String>();
+//        for (String a : s1){
+//            String b = a + "\n";
+//            s2.add(b);
+//        }
+//        System.out.println(s2);
     }
     @Test
     public void testList() throws Exception {
